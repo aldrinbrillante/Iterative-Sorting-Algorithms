@@ -1,5 +1,4 @@
 
-
 def is_sorted(items):
     """Return a boolean indicating whether given items are in sorted order"""
     return all(items[i] <= items[i+1] for i in range(len(items)-1))
